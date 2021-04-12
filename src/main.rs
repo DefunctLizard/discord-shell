@@ -8,7 +8,7 @@ use std::str;
 fn main() {
     // Log in to Discord using a bot token from the environment
     let discord =
-        Discord::from_bot_token("Nzg3ODcyMTg5NzI2MzI2ODI0.X9bRJw.XTUi7se2AIrUaeq_NbgBB27GYl8")
+        Discord::from_bot_token("DISCORD_TOKEN_HERE")
             .expect("login failed");
 
     // Establish and use a websocket connection
